@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lamborghini Luxury Car</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+
+  <style>
+    .gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 10px;
+}
+
+.gallery-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  background-color: #f8f8f8; 
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+    .model-card {
+      width: 300px;
+      padding: 20px;
+      border: 1px solid #ddd;
+      text-align: center;
+    }
+
+    .model-card img {
+      max-width: 100%;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #111;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+  </style>
+
+  <img src="Banner/Background.jpg" alt="Lamborghini Background" class="bg-image" />
+
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <img src="Banner/Logo.jpg" alt="Logo" />
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#models">Models</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!--HOME-->
+  <section id="home" class="page-section home-section section-padding">
+  <main class="content">
+    <h1>Lamborghini Luxury Car</h1>
+    <p class="tagline">Drive the Legend</p>
+    <p class="homepage-blurb">
+      More than just speed — Lamborghini is an icon of design, innovation, and fearless performance. Discover what makes it the ultimate driving experience.
+    </p>
+  </main>
+</section>
+
+<!--ABOUT-->
+<section id="about" class="page-section about-section section-padding">
+  <div class="about-container">
+    <div class="about-text">
+      <h2>About Us</h2>
+
+      <p>
+        Lamborghini Luxury Car is a passion project dedicated to showcasing one of the world’s most iconic supercars. 
+        From breathtaking performance to visionary design, our goal is to bring the Lamborghini legend closer to you.
+      </p>
+
+      <p>
+        Lamborghini isn't just a brand — it’s a symbol of status, power, and art on wheels. This website was created to share the journey of Lamborghini, 
+        its groundbreaking technology, and its influence on the world of luxury sports cars.
+      </p>
+
+      <p>
+        Explore the legend. Discover the drive. Experience the roar.
+      </p>
+
+      <p>
+        This site was born out of a lifelong admiration for Lamborghini’s daring innovation and breathtaking design. As enthusiasts ourselves, 
+        we want to share the excitement, stories, and craftsmanship behind every model with a global community of fans.
+      </p>
+
+      <p>
+        Here, you’ll find detailed reviews, exclusive news, stunning galleries, and insights into Lamborghini’s past, present, and future — all curated for true aficionados.
+      </p>
+
+      <p>
+        Whether you’re a seasoned collector or a passionate dreamer, join us as we explore the legacy and the roar of Lamborghini engines. Share your passion with us and stay tuned for exciting content ahead.
+      </p>
+
+      <p>
+        <strong>Lamborghini Automobili S.p.A.</strong> was founded in 1963 by Italian manufacturing magnate <strong>Ferruccio Lamborghini</strong> in Sant’Agata Bolognese, Italy. 
+        Originally a maker of tractors, Ferruccio set out to challenge Ferrari and create the ultimate grand touring car — and he succeeded.
+      </p>
+
+      <p>
+        The brand’s first success came with the <strong>Miura</strong> (1966), which introduced a mid-engine layout that redefined supercar engineering. 
+        Since then, Lamborghini has produced legendary models like the Countach, Diablo, Murciélago, Aventador, and the modern Huracán and Revuelto.
+      </p>
+
+      <p>
+        Lamborghini cars are renowned for their:
+      </p>
+      <ul>
+        <li><strong>Bold and futuristic design</strong> that pushes boundaries of automotive aesthetics.</li>
+        <li><strong>V12 and V10 powertrains</strong> delivering exhilarating power and soundtracks.</li>
+        <li><strong>Precision aerodynamics</strong> engineered for speed and stability.</li>
+        <li><strong>Cutting-edge hybrid and performance technologies</strong> leading the future of supercars.</li>
+      </ul>
+
+      <p>
+        In recent years, Lamborghini has expanded into new segments with models like the <strong>Urus</strong>, the world’s first super-SUV. The company also leads innovation in lightweight materials, hybrid systems, and digital interfaces while preserving the emotional thrill of driving.
+      </p>
+
+      <p>
+        Beyond cars, Lamborghini’s influence extends into design collaborations, motorsports, and lifestyle products — all reflecting the brand’s ethos of power, precision, and passion.
+      </p>
+
+      <p>
+        The raging bull logo stands for power, strength, and a legacy of excellence — qualities embedded into every curve, engine roar, and detail of every Lamborghini vehicle.
+      </p>
+
+      <p class="highlight-quote">
+        "Expect the unexpected. Live the impossible. Drive the extraordinary."
+      </p>
+
+      <p>
+        Join us on this exhilarating journey through automotive history and innovation, where passion meets precision and dreams become reality.
+      </p>
+
+    </div>
+    <div class="about-image">
+      <img src="Banner/lamborghini-history.jpg" alt="Classic and Modern Lamborghini Cars" />
+    </div>
+  </div>
+</section>
+
+  
+  <!--MODELS-->
+<section id="models" class="page-section models-section section-padding">
+  <h2>Explore Lamborghini Models</h2>
+
+  <!-- Luxury Supercars -->
+  <h3>Luxury Supercars</h3>
+  <div class="models-grid">
+    <div class="model-card">
+      <img src="Banner/lamborghini-revuelto.jpg" alt="Lamborghini Revuelto" />
+      <h3>Revuelto</h3>
+      <p>The V12 plug-in hybrid supercar redefining performance.</p>
+      <a href="https://www.lamborghini.com/en-en/models/revuelto#val-ht" class="btn">Learn More</a>
+    </div>
+
+    <div class="model-card">
+      <img src="Banner/lamborghini-huracan.jpg" alt="Huracán Tecnica" />
+      <h3>Huracán Tecnica</h3>
+      <p>Track-ready power with iconic Lamborghini design.</p>
+      <a href="https://www.lamborghini.com/en-en/models/huracan/huracan-tecnica#val-ht" class="btn">Learn More</a>
+    </div>
+
+    <div class="model-card">
+      <img src="Banner/Aventador model.jpg" alt="Lamborghini Aventador SVJ" />
+      <h3>Aventador</h3>
+      <p>The ultimate luxury Supercar combining power and comfort.</p>
+      <a href="https://www.lamborghini.com/en-en/history/aventador-s#val-ht" class="btn">Learn More</a>
+    </div>
+
+    <div class="model-card">
+      <img src="Banner/stratto.jpg" alt="Lamborghini Huracán Sterrato" />
+      <h3>Huracán Sterrato</h3>
+      <p>Off-road‑ready Huracán variant.</p>
+      <a href="https://www.lamborghini.com/en-en/models/huracan/huracan-sterrato" class="btn">Learn More</a>
+    </div>
+
+    <div class="model-card">
+      <img src="Banner/huracan-sto.jpg" alt="Lamborghini Huracán STO" />
+      <h3>Huracán STO</h3>
+      <p>Track‑focused Huracán.</p>
+      <a href="https://www.lamborghini.com/en-en/models/huracan/huracan-sto" class="btn">Learn More</a>
+    </div>
+
+    <div class="model-card">
+      <img src="Banner/huracan‑evo‑spyder.jpg" alt="Lamborghini Huracán EVO Spyder" />
+      <h3>Huracán EVO Spyder</h3>
+      <p>Convertible with upgraded Huracán performance.</p>
+      <a href="https://www.lamborghini.com/en-en/models/huracan/huracan-evo-spyder" class="btn">Learn More</a>
+    </div>
+  </div>
+
+  <!-- Luxury SUVs -->
+  <h3>Luxury SUVs</h3>
+  <div class="models-grid">
+    <div class="model-card">
+      <img src="Banner/urus.jpg" alt="Lamborghini Urus" />
+      <h3>Urus</h3>
+      <p>Powerful Super‑SUV that redefined the luxury SUV segment.</p>
+      <a href="https://www.lamborghini.com/en-en/models/urus" class="btn">Learn More</a>
+    </div>
+
+    <div class="model-card">
+      <img src="Banner/performante.jpg" alt="Lamborghini Urus Performante" />
+      <h3>Urus Performante</h3>
+      <p>Track-honed version of the Urus SUV.</p>
+      <a href="https://www.lamborghini.com/en-en/models/urus/urus-performante" class="btn">Learn More</a>
+    </div>
+
+    <div class="model-card">
+      <img src="Banner/urus se.jpg" alt="Lamborghini Urus SE" />
+      <h3>Urus SE</h3>
+      <p>Hybrid variant of the Urus offering enhanced performance.</p>
+      <a href="https://www.lamborghini.com/en-en/models/urus/urus-se" class="btn">Learn More</a>
+    </div>
+  </div>
+
+  <!-- Limited Editions & Classics -->
+  <h3>Limited Editions & Classics</h3>
+  <div class="models-grid">
+    <div class="model-card">
+      <img src="Banner/gt .jpg" alt="Lamborghini 350 GT" />
+      <h3>350 GT</h3>
+      <p>Lamborghini’s first production car — elegant grand tourer.</p>
+      <a href="https://en.wikipedia.org/wiki/Lamborghini_350_GT" class="btn">Learn More</a>
+    </div>
+
+    <div class="model-card">
+      <img src="Banner/miu .jpg" alt="Lamborghini Miura" />
+      <h3>Miura</h3>
+      <p>The original supercar that changed the game in 1966.</p>
+      <a href="https://en.wikipedia.org/wiki/Lamborghini_Miura" class="btn">Learn More</a>
+    </div>
+
+    <div class="model-card">
+      <img src="Banner/cou .jpg" alt="Lamborghini Countach" />
+      <h3>Countach</h3>
+      <p>The wild wedge-era icon of the 1970–80s.</p>
+      <a href="https://en.wikipedia.org/wiki/Lamborghini_Countach" class="btn">Learn More</a>
+    </div>
+
+    <div class="model-card">
+      <img src="Banner/dia .jpg" alt="Lamborghini Diablo" />
+      <h3>Diablo</h3>
+      <p>The '90s-era V12 beast with over‑300 km/h top speed.</p>
+      <a href="https://en.wikipedia.org/wiki/Lamborghini_Diablo" class="btn">Learn More</a>
+    </div>
+
+    <div class="model-card">
+      <img src="Banner/mur .jpg" alt="Lamborghini Murciélago" />
+      <h3>Murciélago</h3>
+      <p>The V12 flagship of the early 2000s — successor to the Diablo.</p>
+      <a href="https://en.wikipedia.org/wiki/Lamborghini_Murci%C3%A9lago" class="btn">Learn More</a>
+    </div>
+
+    <div class="model-card">
+      <img src="Banner/gal .jpg" alt="Lamborghini Gallardo" />
+      <h3>Gallardo</h3>
+      <p>Lamborghini’s best‑selling model ever — V10 supercar.</p>
+      <a href="https://en.wikipedia.org/wiki/Lamborghini_Gallardo" class="btn">Learn More</a>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="page-section gallery-section section-padding">
+  <h2>Lamborghini Gallery</h2>
+  <p>Explore Lamborghini's most iconic and luxurious cars throughout history.</p>
+
+  <!-- CURRENT PRODUCTION MODELS (2025) – 8 -->
+  <h3>Current Production (2025)</h3>
+  <div class="gallery-grid">
+    <div class="gallery-item">
+      <img src="Banner/lamborghini-revuelto.jpg" alt="Revuelto" />
+      <img src="Banner/Ruvelto 1.jpg" />
+      <img src="Banner/Ruvelto 2.jpg" />
+      <img src="Banner/Ruvelto 3.jpg" />
+      <img src="Banner/Ruvelto 4.jpg" />
+      <img src="Banner/Ruvelto 6.jpg" />
+      <img src="Banner/Ruvelto 7.jpg" />
+      <img src="Banner/Ruvelto 8.jpg" />
+      <h4>Revuelto</h4>
+    </div>
+
+    <div class="gallery-item">
+      <img src="Banner/tecnica 1.jpg" alt="Huracán Tecnica"/>
+      <img src="Banner/tecnica 2.jpg" />
+      <img src="Banner/tecnica 3.jpg" />
+      <img src="Banner/tecnica 4.jpg" />
+      <img src="Banner/tecnica 5.jpg" />
+      <img src="Banner/tecnica 6.jpg" />
+      <img src="Banner/tecnica 8.jpg" />
+      <img src="Banner/tecnica 9.jpg" />
+      <img src="Banner/tecnica 10.jpg" />
+      <img src="Banner/tecnica 11.jpg" />
+      <img src="Banner/tecnica 12.jpg" />
+      <h4>Huracán Tecnica</h4>
+    </div>
+
+    <div class="gallery-item">
+      <img src="Banner/huracan-sto.jpg" alt="Huracán STO" />
+      <img src="Banner/sto 2.jpg" />
+      <img src="Banner/sto 3.jpg" />
+      <img src="Banner/sto 4.jpg" />
+      <img src="Banner/sto 5.jpg" />
+      <img src="Banner/sto 6.jpg" />
+      <img src="Banner/sto 7.jpg" />
+      <img src="Banner/sto 8.jpg" />
+      <h4>Huracán STO</h4>
+    </div>
+
+    <div class="gallery-item">
+      <img src="Banner/stratto.jpg" alt="Huracán Sterrato" />
+      <img src="Banner/sterra 1.jpg" />
+      <img src="Banner/sterra 2.jpg" />
+      <img src="Banner/sterra 3.jpg" />
+      <img src="Banner/sterra 4.jpg" />
+      <img src="Banner/sterra 5.jpg" />
+      <img src="Banner/sterra 6.jpg" />
+      <h4>Huracán Sterrato</h4>
+    </div>
+    
+    <div class="gallery-item">
+      <img src="Banner/spy 1.jpg" alt="Huracán EVO Spyder"/>
+      <img src="Banner/spy 2.jpg" />
+      <img src="Banner/spy 3.jpg" />
+      <img src="Banner/spy 4.jpg" />
+      <img src="Banner/spy 5.jpg" />
+      <img src="Banner/spy 6.jpg" />
+      <img src="Banner/spy 7.jpg" />
+      <img src="Banner/spy 8.jpg" />
+      <h4>Huracán EVO Spyder</h4>
+    </div>
+    
+    <div class="gallery-item">
+      <img src="Banner/urus.jpg" alt="Urus S" />
+      <img src="Banner/urus s 1.jpg" />
+      <img src="Banner/urus s 2.jpg" />
+      <img src="Banner/urus s 3.jpg" />
+      <img src="Banner/urus s 4.jpg" />
+      <img src="Banner/urus s 5.jpg" />
+      <img src="Banner/urus s 6.jpg" />
+      <img src="Banner/urus s 7.jpg" />
+      <img src="Banner/urus s 8.jpg" />
+      <img src="Banner/urus s 9.jpg" />
+      <img src="Banner/urus s 10.jpg" />
+      <h4>Urus S</h4>
+    </div>
+    
+    <div class="gallery-item">
+      <img src="Banner/performante.jpg" alt="Urus Performante" />
+      <img src="Banner/performante 1.jpg" />
+      <img src="Banner/performante 2.jpg" />
+      <img src="Banner/performante 3.jpg" />
+      <img src="Banner/performante 4.jpg" />
+      <img src="Banner/performante 5.jpg" />
+      <img src="Banner/performante 6.jpg" />
+      <img src="Banner/performante 7.jpg" />
+      <img src="Banner/performante 8.jpg" />
+      <h4>Urus Performante</h4>
+    </div>
+    
+    <div class="gallery-item">
+      <img src="Banner/urus se.jpg" alt="Urus SE" />
+      <img src="Banner/se 1.jpg" />
+      <img src="Banner/se 2.jpg" />
+      <img src="Banner/se 3.jpg" />
+      <img src="Banner/se 4.jpg" />
+      <img src="Banner/se 5.jpg" />
+      <img src="Banner/se 6.jpg" />
+      <img src="Banner/se 7.jpg" />
+      <img src="Banner/se 8.jpg" />
+      <img src="Banner/se 9.jpg" />
+      <img src="Banner/se 10.jpg" />
+      <h4>Urus SE</h4>
+    </div>
+  
+  </div>
+
+  <!-- ICONIC & LIMITED ICONS – 20+ Total -->
+  <h3>Iconic & Limited Editions</h3>
+  <div class="gallery-grid">
+    <div class="gallery-item">
+      <img src="Banner/j 1.jpg" alt="Aventador J"/>
+      <img src="Banner/j 2.jpg" />
+      <img src="Banner/j 3.jpg" />
+      <img src="Banner/j 4.jpg" />
+      <img src="Banner/j 5.jpg" />
+      <img src="Banner/j 6.jpg" />
+      <h4>Aventador J</h4>
+    </div>
+    
+    <div class="gallery-item">
+      <img src="Banner/rev 1.jpg" alt="Reventón" />
+      <img src="Banner/rev 2.jpg" />
+      <img src="Banner/rev 3.jpg" />
+      <img src="Banner/rev 4.jpg" />
+      <img src="Banner/rev 5.jpg" />
+      <img src="Banner/rev 6.jpg" />
+      <img src="Banner/rev 7.jpg" />
+      <img src="Banner/rev 8.jpg" />
+      <img src="Banner/rev 9.jpg" />
+      <img src="Banner/rev 10.jpg" />
+      <img src="Banner/rev 11.jpg" />
+      <h4>Reventón</h4>
+    </div>
+
+    <div class="gallery-item">
+      <img src="Banner/sesto 1.jpg" alt="Sesto Elemento" />
+      <img src="Banner/sesto 2.jpg" />
+      <img src="Banner/sesto 3.jpg" />
+      <img src="Banner/sesto 4.jpg" />
+      <img src="Banner/sesto 5.jpg" />
+      <img src="Banner/sesto 6.jpg" />
+      <img src="Banner/sesto 7.jpg" />
+      <img src="Banner/sesto 8.jpg" />
+      <h4>Sesto Elemento</h4>
+    </div>
+    
+    <div class="gallery-item">
+      <img src="Banner/sian 1.jpg" alt="Sián FKP 37"/>
+      <img src="Banner/sian 2.jpg" />
+      <img src="Banner/sian 3.jpg" />
+      <img src="Banner/sian 4.jpg" />
+      <img src="Banner/sian 5.jpg" />
+      <img src="Banner/sian 6.jpg" />
+      <img src="Banner/sian 7.jpg" />
+      <img src="Banner/sian 8.jpg" />
+      <h4>Sián FKP 37</h4>
+    </div>
+    
+    <div class="gallery-item">
+      <img src="Banner/road .jpg" alt="Sián Roadster" />
+      <img src="Banner/road 1.jpg" />
+      <img src="Banner/road 2.jpg" />
+      <img src="Banner/road 3.jpg" />
+      <img src="Banner/road 4.jpg" />
+      <img src="Banner/road 5.jpg" />
+      <img src="Banner/road 6.jpg" />
+      <img src="Banner/road 7.jpg" />
+      <img src="Banner/road 8.jpg" />
+      <img src="Banner/road 9.jpg" />
+      <h4>Sián Roadster</h4>
+    </div>
+    
+    <div class="gallery-item">
+      <img src="Banner/cen .jpg" alt="Centenario" />
+      <img src="Banner/cen 1.jpg" />
+      <img src="Banner/cen 2.jpg" />
+      <img src="Banner/cen 3.jpg" />
+      <img src="Banner/cen 4.jpg" />
+      <img src="Banner/cen 5.jpg" />
+      <h4>Centenario</h4>
+    </div>
+    
+    <div class="gallery-item">
+      <img src="Banner/ven .jpg" alt="Veneno" />
+      <img src="Banner/ven 1.jpg" />
+      <img src="Banner/ven 2.jpg" />
+      <img src="Banner/ven 3.jpg" />
+      <img src="Banner/ven 4.jpg" />
+      <img src="Banner/ven 5.jpg" />
+      <h4>Veneno</h4>
+    </div>
+    
+    <div class="gallery-item">
+      <img src="Banner/fen .jpg" alt="Fenomeno" />
+      <img src="Banner/fen 1.jpg" />
+      <img src="Banner/fen 2.jpg" />
+      <img src="Banner/fen 3.jpg" />
+      <img src="Banner/fen 4.jpg" />
+      <img src="Banner/fen 5.jpg" />
+      <img src="Banner/fen 6.jpg" />
+      <img src="Banner/fen 7.jpg" />
+      <img src="Banner/fen 8.jpg" />
+      <img src="Banner/fen 9.jpg" />
+      <img src="Banner/fen 10.jpg" />
+      <h4>Fenomeno</h4>
+    </div>
+    
+    <div class="gallery-item">
+      <img src="Banner/lpi .jpg" alt="Countach LPI 800‑4" />
+      <img src="Banner/lpi 1.jpg" />
+      <img src="Banner/lpi 2.jpg" />
+      <img src="Banner/lpi 3.jpg" />
+      <img src="Banner/lpi 4.jpg" />
+      <img src="Banner/lpi 5.jpg" />
+      <img src="Banner/lpi 6.jpg" />
+      <img src="Banner/lpi 7.jpg" />
+      <img src="Banner/lpi 8.jpg" />
+      <img src="Banner/lpi 9.jpg" />
+      <img src="Banner/lpi 10.jpg" />
+      <img src="Banner/lpi 11.jpg" />
+      <img src="Banner/lpi 12.jpg" />
+      <h4>Countach LPI 800‑4</h4>
+    </div>
+    
+    <div class="gallery-item">
+      <img src="Banner/j 1.jpg" alt="Aventador J (concept)" />
+      <img src="Banner/j 2.jpg" />
+      <img src="Banner/j 3.jpg" />
+      <img src="Banner/j 4.jpg" />
+      <img src="Banner/j 5.jpg" />
+      <img src="Banner/j 6.jpg" />
+      <h4>Aventador J</h4>
+    </div>
+    
+    <div class="gallery-item">
+      <img src="Banner/gt .jpg" alt="350 GT" />
+      <img src="Banner/gt 1.jpg" />
+      <img src="Banner/gt 2.jpg" />
+      <img src="Banner/gt 3.jpg" />
+      <img src="Banner/gt 4.jpg" />
+      <img src="Banner/gt 5.jpg" />
+      <img src="Banner/gt 6.jpg" />
+      <img src="Banner/gt 7.jpg" />
+      <img src="Banner/gt 8.jpg" />
+      <img src="Banner/gt 9.jpg" />
+      <h4>350 GT</h4>
+    </div>
+    
+    <div class="gallery-item">
+      <img src="Banner/miu .jpg" alt="Miura" />
+      <img src="Banner/miu 1.jpg" />
+      <img src="Banner/miu 2.jpg" />
+      <img src="Banner/miu 3.jpg" />
+      <img src="Banner/miu 4.jpg" />
+      <img src="Banner/miu 5.jpg" />
+      <img src="Banner/miu 6.jpg" />
+      <img src="Banner/miu 7.jpg" />
+      <img src="Banner/miu 8.jpg" />
+      <h4>Miura</h4>
+    </div>
+    
+    <div class="gallery-item">
+      <img src="Banner/cou .jpg" alt="Countach" />
+      <img src="Banner/cou 1.jpg" />
+      <img src="Banner/cou 2.jpg" />
+      <img src="Banner/cou 3.jpg" />
+      <img src="Banner/cou 4.jpg" />
+      <img src="Banner/cou 5.jpg" />
+      <img src="Banner/cou 6.jpg" />
+      <h4>Countach</h4>
+    </div>
+    
+    <div class="gallery-item">
+      <img src="Banner/dia .jpg" alt="Diablo" />
+      <img src="Banner/dia 1.jpg" />
+      <img src="Banner/dia 2.jpg" />
+      <img src="Banner/dia 3.jpg" />
+      <img src="Banner/dia 4.jpg" />
+      <img src="Banner/dia 5.jpg" />
+      <img src="Banner/dia 6.jpg" />
+      <img src="Banner/dia 7.jpg" />
+      <img src="Banner/dia 8.jpg" />
+      <h4>Diablo</h4>
+    </div>
+    
+    <div class="gallery-item">
+      <img src="Banner/gal .jpg" alt="Gallardo" />
+      <img src="Banner/gal 1.jpg" />
+      <img src="Banner/gal 2.jpg" />
+      <img src="Banner/gal 3.jpg" />
+      <img src="Banner/gal 4.jpg" />
+      <img src="Banner/gal 5.jpg" />
+      <img src="Banner/gal 6.jpg" />
+      <img src="Banner/gal 7.jpg" />
+      <h4>Gallardo</h4>
+    </div>
+    
+    <div class="gallery-item">
+      <img src="Banner/miu .jpg" alt="Murciélago" />
+      <img src="Banner/mur 1.jpg" />
+      <img src="Banner/mur 2.jpg" />
+      <img src="Banner/mur 3.jpg" />
+      <img src="Banner/mur 4.jpg" />
+      <img src="Banner/mur 5.jpg" />
+      <img src="Banner/mur 6.jpg" />
+      <img src="Banner/mur 7.jpg" />
+      <h4>Murciélago</h4>
+    </div>
+    
+    <div class="gallery-item">
+      <img src="Banner/rr .jpg" alt="Reventón Roadster" />
+      <img src="Banner/rr 1.jpg" />
+      <img src="Banner/rr 2.jpg" />
+      <img src="Banner/rr 3.jpg" />
+      <h4>Reventón Roadster</h4>
+    </div>
+    
+    <div class="gallery-item">
+      <img src="Banner/cenr .jpg" alt="Centenario Roadster" />
+      <img src="Banner/cenr 1.jpg" />
+      <img src="Banner/cenr 2.jpg" />
+      <img src="Banner/cenr 3.jpg" />
+      <img src="Banner/cenr 4.jpg" />
+      <img src="Banner/cenr 5.jpg" />
+      <h4>Centenario Roadster</h4>
+    </div>
+    
+    <div class="gallery-item">
+      <img src="Banner/venr .jpg" alt="Veneno Roadster" />
+      <img src="Banner/venr 1.jpg" />
+      <img src="Banner/venr 2.jpg" />
+      <img src="Banner/venr 3.jpg" />
+      <h4>Veneno Roadster</h4>
+    
+    </div>
+  </div>
+</section>
+
+
+
+<!--CONTACT US-->
+<section id="contact" class="page-section contact-section section-padding">
+  <h2>Contact Us</h2>
+  <p>Have questions, suggestions, or just want to talk cars? We'd love to hear from you.</p>
+
+  <form action="https://formsubmit.co/norielseloza9@gmail.com" method="POST" class="contact-form">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <input type="text" name="subject" placeholder="Subject" />
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <input type="hidden" name="_captcha" value="false" />
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+
+  <div class="contact-social">
+  <a href="https://www.facebook.com/noriel.seloza.7" target="_blank" rel="noopener noreferrer" class="social-link">
+    <img src="Banner/facebook logo_icon.png" alt="Facebook" />
+    <span class="social-text">Facebook</span>
+  </a>
+  <a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer" class="social-link">
+    <img src="Banner/instagram logo_con.png" alt="Instagram" />
+    <span class="social-text">Instagram</span>
+  </a>
+  <a href="https://www.tiktok.com/@yourprofile" target="_blank" rel="noopener noreferrer" class="social-link">
+    <img src="Banner/tiktok_icon.png" alt="TikTok" />
+    <span class="social-text">TikTok</span>
+  </a>
+</div>
+
+
+
+  <div class="contact-details">
+    <p>Email: norielseloza9@gmail.com</p>
+    <p>Follow us on Instagram: @lamboluxury</p>
+  </div>
+</section>
+
+
+  <footer class="footer">
+    <p>&copy; 2025 Lamborghini Luxury Car, This Website is For Educational Purposes Only</p>
+  </footer>
+
+  <div id="lightbox-modal" class="lightbox">
+  <span class="close">&times;</span>
+  <img class="lightbox-img" src="" alt="Zoomed Image">
+  <div class="lightbox-controls">
+    <span class="prev">&#10094;</span>
+    <span class="next">&#10095;</span>
+  </div>
+</div>
+
+
+    <script src="lightbox.js"></script>
+
+</body>
+</html>
